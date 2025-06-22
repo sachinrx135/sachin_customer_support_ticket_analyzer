@@ -1,4 +1,4 @@
-# 🧠 Customer Support Ticket Analyzer (Draconic AI Case Study)
+# 🧠 Customer Support Ticket Analyzer
 
 This project implements a multi-agent AI system that classifies, analyzes sentiment, and routes customer support tickets using OpenAI models and the `pydantic-ai` framework.
 
