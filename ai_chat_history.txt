@@ -1,0 +1,90 @@
+
+--- ClassifierAgent | 2025-06-22T14:26:24.585602 | Ticket ID: SUP-001 ---
+Prompt:
+Given this ticket (subject: This product is completely broken!!!, message: Nothing works! I can't even log in. This is the worst software I've ever used.), classify it into [Billing, Technical, Account, Feature Request, Other]:
+Response:
+Technical
+
+--- SentimentAgent | 2025-06-22T14:26:25.402636 | Ticket ID: SUP-001 ---
+Prompt:
+Analyze the sentiment of this message: Nothing works! I can't even log in. This is the worst software I've ever used.. Return one word: Positive, Neutral, or Negative.
+Response:
+Negative
+
+--- RouterAgent | 2025-06-22T14:26:26.926795 | Ticket ID: SUP-001 ---
+Prompt:
+Route a ticket with category: Technical, sentiment: Negative, and tier: free to the best department: [Tech Support, Billing Team, Customer Success, Escalations, Product Team].
+Response:
+For a ticket with the category "Technical," a sentiment of "Negative," and a tier of "Free," the best department to route it to would be **Tech Support**. They are equipped to handle technical issues and address customer concerns effectively.
+
+--- ClassifierAgent | 2025-06-22T14:26:27.580752 | Ticket ID: SUP-002 ---
+Prompt:
+Given this ticket (subject: Minor UI issue with dashboard, message: Hi team, just noticed the dashboard numbers are slightly misaligned on mobile view.), classify it into [Billing, Technical, Account, Feature Request, Other]:
+Response:
+Other
+
+--- SentimentAgent | 2025-06-22T14:26:28.799584 | Ticket ID: SUP-002 ---
+Prompt:
+Analyze the sentiment of this message: Hi team, just noticed the dashboard numbers are slightly misaligned on mobile view.. Return one word: Positive, Neutral, or Negative.
+Response:
+Neutral
+
+--- RouterAgent | 2025-06-22T14:26:30.722522 | Ticket ID: SUP-002 ---
+Prompt:
+Route a ticket with category: Other, sentiment: Neutral, and tier: enterprise to the best department: [Tech Support, Billing Team, Customer Success, Escalations, Product Team].
+Response:
+Given the category "Other," a neutral sentiment, and an enterprise tier, the best department to route this ticket to would be the **Customer Success** team. They can address a wide range of inquiries and ensure that the customer's needs are met effectively.
+
+--- ClassifierAgent | 2025-06-22T14:26:31.531038 | Ticket ID: SUP-003 ---
+Prompt:
+Given this ticket (subject: Feature Request: Bulk export, message: We need bulk export functionality for our quarterly reports.), classify it into [Billing, Technical, Account, Feature Request, Other]:
+Response:
+Feature Request
+
+--- SentimentAgent | 2025-06-22T14:26:33.067389 | Ticket ID: SUP-003 ---
+Prompt:
+Analyze the sentiment of this message: We need bulk export functionality for our quarterly reports.. Return one word: Positive, Neutral, or Negative.
+Response:
+Neutral
+
+--- RouterAgent | 2025-06-22T14:26:34.451056 | Ticket ID: SUP-003 ---
+Prompt:
+Route a ticket with category: Feature Request, sentiment: Neutral, and tier: premium to the best department: [Tech Support, Billing Team, Customer Success, Escalations, Product Team].
+Response:
+For a ticket with the category "Feature Request," a neutral sentiment, and a tier of "premium," the best department to route it to would be the **Product Team**. They are typically responsible for handling feature requests and can review and prioritize such inquiries effectively.
+
+--- ClassifierAgent | 2025-06-22T14:26:35.115227 | Ticket ID: SUP-004 ---
+Prompt:
+Given this ticket (subject: API rate limits unclear, message: Getting rate limited but docs say 1000 requests/hour allowed.), classify it into [Billing, Technical, Account, Feature Request, Other]:
+Response:
+This ticket should be classified as **Technical**.
+
+--- SentimentAgent | 2025-06-22T14:26:35.730409 | Ticket ID: SUP-004 ---
+Prompt:
+Analyze the sentiment of this message: Getting rate limited but docs say 1000 requests/hour allowed.. Return one word: Positive, Neutral, or Negative.
+Response:
+Neutral
+
+--- RouterAgent | 2025-06-22T14:26:36.652763 | Ticket ID: SUP-004 ---
+Prompt:
+Route a ticket with category: This ticket should be classified as **Technical**., sentiment: Neutral, and tier: premium to the best department: [Tech Support, Billing Team, Customer Success, Escalations, Product Team].
+Response:
+Based on the classification of the ticket as **Technical**, it would be best routed to the **Tech Support** department. They are equipped to handle technical issues effectively.
+
+--- ClassifierAgent | 2025-06-22T14:26:37.381111 | Ticket ID: SUP-005 ---
+Prompt:
+Given this ticket (subject: Urgent: Security vulnerability?, message: Our security team flagged that your API responses include internal server paths.), classify it into [Billing, Technical, Account, Feature Request, Other]:
+Response:
+Technical
+
+--- SentimentAgent | 2025-06-22T14:26:38.394331 | Ticket ID: SUP-005 ---
+Prompt:
+Analyze the sentiment of this message: Our security team flagged that your API responses include internal server paths.. Return one word: Positive, Neutral, or Negative.
+Response:
+Negative
+
+--- RouterAgent | 2025-06-22T14:26:39.724024 | Ticket ID: SUP-005 ---
+Prompt:
+Route a ticket with category: Technical, sentiment: Negative, and tier: enterprise to the best department: [Tech Support, Billing Team, Customer Success, Escalations, Product Team].
+Response:
+For a ticket with the category "Technical," sentiment "Negative," and tier "Enterprise," the best department to route it to would be **Escalations**. This department is typically equipped to handle urgent and complex issues, especially in an enterprise context.

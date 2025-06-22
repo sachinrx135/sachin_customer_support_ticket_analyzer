@@ -1,0 +1,32 @@
+[
+  {
+    "ticket_id": "SUP-001",
+    "category": "Technical",
+    "sentiment": "Negative",
+    "department": "For a ticket with the category \"Technical,\" a sentiment of \"Negative,\" and a tier of \"Free,\" the best department to route it to would be **Tech Support**. They are equipped to handle technical issues and address customer concerns effectively."
+  },
+  {
+    "ticket_id": "SUP-002",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "department": "Given the category \"Other,\" a neutral sentiment, and an enterprise tier, the best department to route this ticket to would be the **Customer Success** team. They can address a wide range of inquiries and ensure that the customer's needs are met effectively."
+  },
+  {
+    "ticket_id": "SUP-003",
+    "category": "Feature Request",
+    "sentiment": "Neutral",
+    "department": "For a ticket with the category \"Feature Request,\" a neutral sentiment, and a tier of \"premium,\" the best department to route it to would be the **Product Team**. They are typically responsible for handling feature requests and can review and prioritize such inquiries effectively."
+  },
+  {
+    "ticket_id": "SUP-004",
+    "category": "This ticket should be classified as **Technical**.",
+    "sentiment": "Neutral",
+    "department": "Based on the classification of the ticket as **Technical**, it would be best routed to the **Tech Support** department. They are equipped to handle technical issues effectively."
+  },
+  {
+    "ticket_id": "SUP-005",
+    "category": "Technical",
+    "sentiment": "Negative",
+    "department": "For a ticket with the category \"Technical,\" sentiment \"Negative,\" and tier \"Enterprise,\" the best department to route it to would be **Escalations**. This department is typically equipped to handle urgent and complex issues, especially in an enterprise context."
+  }
+]
